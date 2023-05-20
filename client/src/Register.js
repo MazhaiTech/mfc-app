@@ -1,4 +1,4 @@
-export default function Login(){
+export default function Register(){
     return(
         <div>
             <h1>Create an Account </h1>
@@ -16,17 +16,12 @@ export default function Login(){
             <input type="password" name="password" placeholder="Password" />
             <br/>
             <label>Phone Number</label>
-            <input type="tel" name="phone" placeholder="Phone Number" />
-            <br/>
-            <label>Date of Birth</label>
-            <input type="date" name="dob" placeholder="Date of Birth" />
-            <br/>
-            <label>Delivery Address</label>
-            <input type="text" name="address" placeholder="Delivery Address" />
+            <input type="tel" name="phone" placeholder="Phone Number" max='' />
             <br/>
             <input type="checkbox" name="terms" placeholder="Terms and conditions" />
             <label>Terms and conditions</label>
-            
+            <br/>
+            <button>Submit</button>
         </form>
         </div>
     )
