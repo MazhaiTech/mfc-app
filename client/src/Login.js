@@ -23,7 +23,10 @@ export default function Login(){
             <br/>
             <label>Delivery Address</label>
             <input type="text" name="address" placeholder="Delivery Address" />
-
+            <br/>
+            <input type="checkbox" name="terms" placeholder="Terms and conditions" />
+            <label>Terms and conditions</label>
+            
         </form>
         </div>
     )
