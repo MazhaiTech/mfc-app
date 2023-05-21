@@ -1,6 +1,6 @@
 export default function Register(){
     return(
-        <div>
+        <div className="container">
             <h1>Create an Account </h1>
         <form>
             <label>First name</label>
@@ -21,7 +21,7 @@ export default function Register(){
             <input type="checkbox" name="terms" placeholder="Terms and conditions" />
             <label>Terms and conditions</label>
             <br/>
-            <button>Submit</button>
+            <button className="btn bg-primary">Submit</button>
         </form>
         </div>
     )
