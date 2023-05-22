@@ -1,4 +1,5 @@
 import './Login.css'
+import pic from './images/mail.png'
 
 export default function Login() {
     return (
@@ -6,7 +7,7 @@ export default function Login() {
         <center>
           <h2 className="account select">Create Account</h2>
           <div className="image">
-            <img src="/Images/mail.png" alt="Mail" />
+          <img src={pic} />
           </div>
           <p className="mno select">Enter your mobile number to create an account</p>
           <p className="otp select">We will send you a one-time password (OTP)</p>
