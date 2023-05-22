@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+}
+body{
+    
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color:#b2beb5;
+    margin-top: -10px;
+}
+img{
+    margin-top: -100px;
+    padding-bottom: 20px;
+max-width: 100%;
+height: auto;
+}
+.mno{
+    color:black;
+    padding-bottom: 20px;
+}
+.otp{
+    color:#b2beb5;
+    padding-bottom: 20px;
+}
+
+.line-input{
+
+  width: 200px;
+border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+    padding-bottom: 10px;
+   
+	}
+.account{
+    padding:100px;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 12.5px 30px; 
+    width:auto;
+    border: 0;
+    border-radius: 100px;
+    background-color: #FF7F50;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #DC143C;
+    box-shadow: 0 0 20px #FA8072;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #DC143C;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .button {
+        font-size: 14px;
+    }
+}
