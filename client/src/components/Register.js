@@ -43,6 +43,14 @@ export default function Register(){
                 </div>
              </div>
             
+             <div class='form-group row mt-2'>
+                <label class='col-sm-2 col-form-label'>Address</label>
+                <div class='col-sm-5'>
+                <textarea class="form-control" rows="10" cols="60" name="text" placeholder="Enter your solution's here " id="comment" className="border border-4" style="border-color:black"></textarea>
+  
+                </div>
+             </div>
+
             <div class='form-group mt-3'>
                 <input class='check' type="checkbox"  name="terms" placeholder="Terms and conditions" />
                 <label>I have agree the <a href=''> Terms and conditions</a></label>
