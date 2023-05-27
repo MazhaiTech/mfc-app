@@ -1,0 +1,15 @@
+div .container {
+    width: 700px;
+  }
+  h3{
+    color:red
+  }
+    .btn{
+        margin-left:40%;
+    }
+  div label:not(:last-child){
+    margin-left:10%
+  }
+  .check{
+    margin-left: 20%;
+  }
