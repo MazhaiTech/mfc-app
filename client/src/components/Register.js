@@ -37,15 +37,15 @@ export default function Register(){
              </div>
             
            <div class='form-group row mt-2'>
-                <label class='col-sm-2 col-form-label'>Phone Number</label>
+                <label class='col-sm-2 col-form-label'>Confirm Password</label>
                 <div class='col-sm-5'>
-                    <input type="tel" class='form-control' name="phonenumber" placeholder="Phone Number" />
+                    <input type="password" class='form-control' name="password2" placeholder="Confirm Password" />
                 </div>
              </div>
             
             <div class='form-group mt-3'>
                 <input class='check' type="checkbox"  name="terms" placeholder="Terms and conditions" />
-                <label> I have agree the Terms and conditions</label>
+                <label>I have agree the <a href=''> Terms and conditions</a></label>
             </div>
 
             <button class="btn text-light bg-danger fg-light mt-3">Submit</button>
