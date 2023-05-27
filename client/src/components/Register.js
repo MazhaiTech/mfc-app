@@ -7,7 +7,7 @@ export default function Register(){
             
 
         <form class=" p-3 shadow bg-white rounded mt-5">
-            <h3><center>Create an Account</center> </h3>
+            <h3><center>Register your account</center> </h3>
             <div class='form-group row mt-4'>
                 <label class='col-sm-2 col-form-label'>First name</label>
                 <div class='col-sm-5'>
