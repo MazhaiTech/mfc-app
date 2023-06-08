@@ -12,7 +12,7 @@ body{
     align-items: center;
 }
 h2{
-    color:#b2beb5;
+    color:var(text-color);
     margin-top: -10px;
 }
 img{
@@ -26,7 +26,7 @@ height: auto;
     padding-bottom: 20px;
 }
 .otp{
-    color:#b2beb5;
+    color:var(--text-color);
     padding-bottom: 20px;
 }
 
@@ -56,7 +56,7 @@ button {
     width:auto;
     border: 0;
     border-radius: 100px;
-    background-color: #FF7F50;
+    background-color:var(--secondary-button);
     color: #ffffff;
     font-weight: Bold;
     transition: all 0.5s;
@@ -64,16 +64,13 @@ button {
   }
   
   button:hover {
-    background-color: #DC143C;
+    background-color:var(--primary-button);
 
   }
   
   button:active {
     background-color: #DC143C;
-    transition: all 0.25s;
-    -webkit-transition: all 0.25s;
-    box-shadow: none;
-    transform: scale(0.98);
+  
   }
 
   @media only screen and (max-width: 600px) {

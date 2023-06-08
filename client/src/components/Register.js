@@ -15,7 +15,7 @@ export default function Register() {
           <input className="line-input1" type="text" name="lastname" placeholder="Last name" />
           <br/>
           <label className="labels">Email</label>
-          <input className="line-input1" type="email" name="email" placeholder="Email name" />
+          <input className="line-input1" type="email" name="email" placeholder="Email" />
           <br/>
           <label className="labels">Password</label>
           <input className="line-input1" type="password" name="password" placeholder="Password" />
