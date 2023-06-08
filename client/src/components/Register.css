@@ -1,8 +1,4 @@
 
-  h3.account {
-    margin-bottom: 20px;
-  }
-  
   .mn {
     display: inline-block;
     width: 100px;
@@ -21,4 +17,16 @@
   .checkbox-label {
     margin-left: 5px;
   }
-  
+  .line-input1{
+
+    width: 200px;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+      padding-bottom: 10px;
+     
+    }
+    .acc{
+      padding:50px;
+    }

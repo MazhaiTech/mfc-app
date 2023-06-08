@@ -4,9 +4,9 @@ export default function Register() {
   return (
     <center>
       <form>
-      <h3 className="account select">
+      <h2 className="acc">
         Register your account
-      </h3>
+      </h2>
       <div>
       <label className="mn">First name</label>
       <input className="line-input1" type="text" name="firstname" placeholder="First name" />
@@ -26,8 +26,8 @@ export default function Register() {
       <label className="mn">Address</label>
       <input className="line-input1" type="text" name="address" placeholder="Address" />
       <br/>
-      <input className="line-input1" type="checkbox" row="5" cols="5" name="terms" placeholder="Terms and conditions" />
-      <label className="mn">I have agreed to the <a href="">Terms and conditions</a></label>
+      <input className="" type="checkbox" row="5" cols="5" name="terms" placeholder="Terms and conditions" />
+      <label className="checkbox-label">I have agreed to the <a href="">Terms and conditions</a></label>
       </div>
       <br/>
       <button>Submit</button>
