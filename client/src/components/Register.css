@@ -1,15 +1,24 @@
-div .container {
-    width: 700px;
+
+  h3.account {
+    margin-bottom: 20px;
   }
-  h3{
-    color:red
+  
+  .mn {
+    display: inline-block;
+    width: 100px;
   }
-    .btn{
-        margin-left:40%;
-    }
-  div label:not(:last-child){
-    margin-left:10%
+  
+  .line-input1 {
+    width: 180px;
+    margin-bottom: 10px;
   }
-  .check{
-    margin-left: 20%;
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
   }
+  
+  .checkbox-label {
+    margin-left: 5px;
+  }
+  

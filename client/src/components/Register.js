@@ -1,63 +1,37 @@
-import bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
-import "./Register.css"
-export default function Register(){
-    return(
-        
-        <div class='container'>
-            
+import "./Register.css";
 
-        <form class=" p-3 shadow bg-white rounded mt-5">
-            <h3><center>Register your account</center> </h3>
-            <div class='form-group row mt-4'>
-                <label class='col-sm-2 col-form-label'>First name</label>
-                <div class='col-sm-5'>
-                    <input type="text" class='form-control' name="firstname" placeholder="First name" />
-                </div>
-             </div>
-            
-             <div class='form-group row mt-2'>
-                <label class='col-sm-2 col-form-label'>Last name</label>
-                <div class='col-sm-5'>
-                    <input type="text" class='form-control' name="lastname" placeholder="Last name" />
-                </div>
-             </div>
-            
-             <div class='form-group row mt-2'>
-                <label class='col-sm-2 col-form-label'>Email</label>
-                <div class='col-sm-5'>
-                    <input type="email" class='form-control' name="email" placeholder="Email name" />
-                </div>
-             </div>
-
-             <div class='form-group row mt-2'>
-                <label class='col-sm-2 col-form-label'>Password</label>
-                <div class='col-sm-5'>
-                    <input type="password" class='form-control' name="password" placeholder="Password" />
-                </div>
-             </div>
-            
-           <div class='form-group row mt-2'>
-                <label class='col-sm-2 col-form-label'>Confirm Password</label>
-                <div class='col-sm-5'>
-                    <input type="password" class='form-control' name="password2" placeholder="Confirm Password" />
-                </div>
-             </div>
-            
-             <div class='form-group row mt-2'>
-                <label class='col-sm-2 col-form-label'>Address</label>
-                <div class='col-sm-5'>
-                <textarea class="form-control" rows="10" cols="60" name="text" placeholder="Enter your solution's here " id="comment" className="border border-4" style="border-color:black"></textarea>
-  
-                </div>
-             </div>
-
-            <div class='form-group mt-3'>
-                <input class='check' type="checkbox"  name="terms" placeholder="Terms and conditions" />
-                <label>I have agree the <a href=''> Terms and conditions</a></label>
-            </div>
-
-            <button class="btn text-light bg-danger fg-light mt-3">Submit</button>
-        </form>
-        </div>
-    )
+export default function Register() {
+  return (
+    <center>
+      <form>
+      <h3 className="account select">
+        Register your account
+      </h3>
+      <div>
+      <label className="mn">First name</label>
+      <input className="line-input1" type="text" name="firstname" placeholder="First name" />
+      <br/>
+      <label className="mn">Last name</label>
+      <input className="line-input1" type="text" name="lastname" placeholder="Last name" />
+      <br/>
+      <label className="mn">Email</label>
+      <input className="line-input1" type="email" name="email" placeholder="Email name" />
+      <br/>
+      <label className="mn">Password</label>
+      <input className="line-input1" type="password" name="password" placeholder="Password" />
+      <br/>
+      <label className="mn">Confirm Password</label>
+      <input className="line-input1" type="password" name="password2" placeholder="Confirm Password" />
+      <br/>
+      <label className="mn">Address</label>
+      <input className="line-input1" type="text" name="address" placeholder="Address" />
+      <br/>
+      <input className="line-input1" type="checkbox" row="5" cols="5" name="terms" placeholder="Terms and conditions" />
+      <label className="mn">I have agreed to the <a href="">Terms and conditions</a></label>
+      </div>
+      <br/>
+      <button>Submit</button>
+    </form>
+    </center>
+  );
 }
