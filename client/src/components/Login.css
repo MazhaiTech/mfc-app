@@ -6,7 +6,7 @@
 }
 body{
     
-    background-color: white;
+    background-color:var(--background-color);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
@@ -18,11 +18,11 @@ h2{
 img{
     margin-top: -100px;
     padding-bottom: 20px;
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 .mno{
-    color:black;
+    color:var(--text-color);
     padding-bottom: 20px;
 }
 .otp{
@@ -32,8 +32,8 @@ height: auto;
 
 .line-input{
 
-  width: 200px;
-border: none;
+    width: 200px;
+    border: none;
 	border-bottom: 2px solid #D1D1D4;
 	background: none;
 	padding: 10px;
@@ -46,7 +46,7 @@ border: none;
     padding:100px;
 }
 .error-message {
-    color: red;
+    color:var(--accent);
     font-size: 12px;
     margin-top: 5px;
 }
@@ -56,8 +56,8 @@ button {
     width:auto;
     border: 0;
     border-radius: 100px;
-    background-color:var(--secondary-button);
-    color: #ffffff;
+    background-color:var(--primary-button);
+    color:var(--background-color);
     font-weight: Bold;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
