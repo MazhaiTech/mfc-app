@@ -8,7 +8,10 @@
     width: 180px;
     margin-bottom: 10px;
   }
-  
+  a{
+    text-decoration: none;
+    
+  }
   .checkbox-container {
     display: flex;
     align-items: center;

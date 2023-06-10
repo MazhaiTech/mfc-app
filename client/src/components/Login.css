@@ -55,7 +55,7 @@ button {
     padding: 12.5px 30px; 
     width:auto;
     border: 0;
-    border-radius: 100px;
+    border-radius: 20px;
     background-color:var(--primary-button);
     color:var(--background-color);
     font-weight: Bold;
@@ -65,6 +65,7 @@ button {
   
   button:hover {
     background-color:var(--primary-button);
+    cursor: pointer;
 
   }
   
